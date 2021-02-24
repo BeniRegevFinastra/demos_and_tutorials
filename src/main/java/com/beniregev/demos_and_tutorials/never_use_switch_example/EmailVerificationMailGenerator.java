@@ -2,6 +2,14 @@ package com.beniregev.demos_and_tutorials.never_use_switch_example;
 
 import org.springframework.stereotype.Component;
 
+/**
+ * <div>
+ *     <div>*** Demo ***</div>
+ *     <p>print e-mail verification-code message. </p>
+ * </div>
+ * @author Binyamin Regev
+ * @since 1.8
+ */
 @Component
 public class EmailVerificationMailGenerator implements MailGenerator {
     @Override
