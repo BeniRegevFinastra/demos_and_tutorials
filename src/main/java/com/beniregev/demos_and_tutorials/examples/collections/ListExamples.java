@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class ListExamples {
-    private void isDisjoin() {
+    private void hasAnyCommonElements() {
         List list1 = Arrays.asList(new String []{ "-h", "--help", "-v", "--version" });
         List list2 = Arrays.asList(new String []{ "--help", "--version" });
 
@@ -14,6 +14,6 @@ public class ListExamples {
     public static void main(String[] args) {
         ListExamples examples = new ListExamples();
 
-        examples.isDisjoin();
+        examples.hasAnyCommonElements();
     }
 }
